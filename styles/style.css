@@ -1,0 +1,28 @@
+
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 50px 240px 0 240px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    font-size: 80px;
+    margin-bottom: 0;
+    max-width: 700px;
+}
+.banner-des{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin: 32px 0;
+    max-width: 630px;
+}
+.btn-primary{
+    background-color: #E55473;
+    padding: 20px 45px;
+    border: none;
+    border-radius: 8px;
+}
+.display-pic{
+    width: 630px;
+}
