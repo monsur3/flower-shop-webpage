@@ -11,7 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #03433817;
+    background-color: #04413713;
 }
 .nav-title{
     color: #181818;
@@ -28,7 +28,7 @@ nav li {
     list-style: none;
     margin-right: 50px;
     border-radius: 7px;
-    background-color: #0598a018;
+    background-color: #0598a014;
 }
 nav a{
     text-decoration: none;
