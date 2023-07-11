@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower shop webpage</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <nav>
+        <h3 class="nav-title">FLOWERS MAKE ONE SPECIAL</h3>
+        <ul>
+            <li><a href="">Featured</a></li>
+           <li><a href="">Collections</a></li>
+           <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
     <header class="header">
         <div class="banner-content">
             <h3 class="banner-title">Let's make beautiful flowers a part of your life.</h3>
@@ -15,5 +28,57 @@
        </div>
         <img class="display-pic" src="Flower Asset/pngwing 10.png" alt="">
     </header>
+    <main>
+        <section class="featured">
+            <h3 class="section-title">Our Featured Flower</h3>
+            <p class="featured-des">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <div class="featured-png">
+                <div>
+                    <img class="first-png" src="Flower Asset/pngwing 6.png" alt="">
+                    <h1><u>Pink Flower Tree</u></h1>
+                </div>
+                <div>
+                    <img class="second-png" src="Flower Asset/pngwing 5.png" alt="">
+                    <h1><u>Pink Flower Tree</u></h1>
+                </div>
+                <div>
+                    <img class="third-png" src="Flower Asset/pngwing 7.png" alt="">
+                    <h1><u>Pink Flower Tree</u></h1>
+                </div>
+            </div>
+        </section>
+        <section class="hot-deal">
+         <div>
+            <h3 class="hot-title">Hot Deal ! Sale Up To 25% <span class="hot-off">off</span></h3>
+            <p class="hot-des">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <button id="hot-btn" class="btn-primary">Sign Up</button>
+         </div>
+         <img class="hot-pic" src="Flower Asset/pngwing 8.png" alt="">
+        </section>
+        <section class="insta">
+            <h3 class="insta-title">Instagram</h3>
+            <p class="insta-des">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <div class="rectangle">
+                <img src="Flower Asset/Rectangle 3.png" alt="">
+                <img src="Flower Asset/Rectangle 4.png" alt="">
+                <img src="Flower Asset/Rectangle 5.png" alt="">
+                <img src="Flower Asset/Rectangle 6.png" alt="">
+            </div>
+        </section>
+        <section class="latest-deals">
+            <h3 class="latest-title">Get The Latest Deals</h3>
+            <p class="latest-des"><span>&#36</span>30 coupon for first shopping</p>
+
+            <div class="mail">
+                <input type="email" placeholder="Enter your email here....">
+                <button class="btn-primary">Subscribe</button>
+            </div>
+        </section>
+        <footer class="shop">
+                <h3 class="shop-title">Flower<span class="flower-s">Shop</span></h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <p class="copy">&#64;2020-2023, FlowerShop.com. All rights reserved.</p>
+        </footer>
+    </main>
 </body>
 </html>
